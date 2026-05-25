@@ -1,0 +1,10 @@
+transformers
+sentence-transformers
+bertopic
+umap-learn
+hdbscan
+pandas
+torch
+scikit-learn
+matplotlib
+seaborn
