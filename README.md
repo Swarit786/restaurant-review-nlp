@@ -95,9 +95,12 @@ Broadly yes, but not perfectly. The most striking divergence is at **3 stars**, 
 
 ```
 .
+├── README.md
 ├── final_code_version.py        # Full analysis pipeline
 ├── generate_visuals.py          # Chart generation script
-├── README.md
+├── requirements.txt             # Python dependencies
+├── data/
+│   └── README.md                # Dataset download instructions
 ├── results/
 │   ├── all_topics.csv                    # All 140 topics with sentiment stats
 │   ├── sentiment_rating_correlation.csv  # Sentiment breakdown per star rating
@@ -115,32 +118,41 @@ Broadly yes, but not perfectly. The most striking divergence is at **3 stars**, 
 
 ## Setup & Usage
 
-### 1. Install dependencies
+### 1. Clone the repo
 
 ```bash
-pip install transformers sentence-transformers bertopic umap-learn hdbscan pandas torch scikit-learn matplotlib seaborn
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 ```
 
-### 2. Download the dataset
+### 2. Install dependencies
 
-Two files from the [Google Maps Reviews dataset](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/) (Yan et al., 2023):
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Download the dataset
+
+See [`data/README.md`](data/README.md) for full instructions.
+
+In short — download these two files from the [McAuley Lab](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/) and place them in the `data/` folder:
 
 - `meta-Alaska.json` — business metadata
 - `review-Alaska.json` — customer reviews
 
-Both `.json` and `.json.gz` formats are supported. Raw data files are not included due to size.
+Both `.json` and `.json.gz` formats are supported.
 
-### 3. Configure paths
+### 4. Configure paths
 
 Open `final_code_version.py` and set:
 
 ```python
-META_PATH    = ""   # e.g. "C:/data/meta-Alaska.json"
-REVIEWS_PATH = ""   # e.g. "C:/data/review-Alaska.json"
-OUTPUT_DIR   = ""   # e.g. "C:/data/output/"
+META_PATH    = "data/meta-Alaska.json"
+REVIEWS_PATH = "data/review-Alaska.json"
+OUTPUT_DIR   = "results/"
 ```
 
-### 4. Run the pipeline
+### 5. Run the pipeline
 
 ```bash
 python final_code_version.py
@@ -154,9 +166,7 @@ The pipeline auto-detects the fastest available device (CUDA → MPS → CPU).
 | Apple Silicon (M2/M4) | 35–60 min |
 | CPU only | 2–4 hours |
 
-### 5. Regenerate visuals (optional)
-
-After running the pipeline, generate fresh charts from your output CSVs:
+### 6. Regenerate visuals (optional)
 
 ```bash
 python generate_visuals.py
