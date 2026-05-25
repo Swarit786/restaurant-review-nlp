@@ -1,0 +1,85 @@
+type,topic,num_reviews,top_words,positive_count,positive_pct,negative_count,negative_pct,star_5,star_1,example_num,rating,sentiment,review_text
+TOPIC,124,242,"sick, poisoning, stomach, eating, got, ate, gross, eat",16,6.6,226,93.4,13,180,,,,
+EXAMPLE,124,,,,,,,,,1,1,NEGATIVE,"I frequently contemplate eating my own vomit over going to this place for a meal, alas, they rob me of $300/month, so I am obligated to utilize it."
+EXAMPLE,124,,,,,,,,,2,1,NEGATIVE,Most of the food here is gross and will make you sick .
+EXAMPLE,124,,,,,,,,,3,5,POSITIVE,The diarrhea afterwards is the best
+EXAMPLE,124,,,,,,,,,4,5,NEGATIVE,Only food I eat after a good day.
+EXAMPLE,124,,,,,,,,,5,3,POSITIVE,It made me full😁
+TOPIC,6,2010,"said, minutes, waitress, told, table, came, manager, didn",176,8.8,1834,91.2,76,1357,,,,
+EXAMPLE,6,,,,,,,,,1,1,NEGATIVE,Walk in when its completely empty and asked if they're open and was told to sit anywhere.. Sat down and nobody came for 20 min. We decided to leave and on the way out the waitress had the nerve to say 'Thank you.  Food might be great but the staff sure didn't let us experience it
+EXAMPLE,6,,,,,,,,,2,1,NEGATIVE,Eleven of us had 7 pm reservations tonight.  It took  over 1 1/2 hours to get our food.  The server said 1 hour 10 minutes but swear it was longer. Excuse was they had a banquet.  That's not an excuse.  To comensate the manager offered the 11 of us 3 free desserts to share.  What an insult.  Finally talked them up to 5 so couples could share.  The king salmon I ordered was bland.  Three ordered the halibut and said it was tasteless.  I will never eat there again. Had to go out and pay for an extra 2 hours on the parking meter too. They added 18% gratuity.  Didn't get out of there till 10 pm.
+EXAMPLE,6,,,,,,,,,3,5,NEGATIVE,"Good food. Waiter should have wrote thing down, he got 1 of the three dinners wrong. Manager took care of us though even after telling her is wasn't necessary. Been there a few times before and haven't had this problem but also haven't had this particular waiter before either."
+EXAMPLE,6,,,,,,,,,4,4,NEGATIVE,Waiters sort of forgot we were there for 20 mins
+EXAMPLE,6,,,,,,,,,5,3,POSITIVE,"First and foremost, I was a little surprised that my server... at a Cajun/creole restaurant... didn’t know what Absinthe was... especially considering it is in fact an ingredient in one of their drinks.
+
+I agree with some of the other reviews in that my server seemed stressed... perhaps due to covid... but I also felt she was maybe a little annoyed or disinterested in providing better service to my partner and I as we only ordered drinks and appetizers.
+
+But the real annoyance came after the second and third times someone tried to take our plates before we were finished eating. Like literally mid bite, THREE TIMES, someone tried to take our plates away. Sort of felt like they were trying to rush us out of there.
+
+The ambiance of the place is eclectic and fun, and food was pretty good, and I will likely go back... but I think the staff needs a little tune up. But then again, I know it’s weird times so I’m willing to grant a bit of grace."
+TOPIC,104,295,"minutes, order, hour, ready, phone, 30, 20, took",54,18.3,241,81.7,29,168,,,,
+EXAMPLE,104,,,,,,,,,1,1,NEGATIVE,"After ordering,we waited an hour and 45 minutes and still no food,just excuses. Walked out."
+EXAMPLE,104,,,,,,,,,2,2,NEGATIVE,Waited 30 minutes from time we ordered to time meal came and another 10 minutes for toast to arrive.  Kitchen staff not efficient. Happened several vusits at Tudor I Hop.
+EXAMPLE,104,,,,,,,,,3,5,NEGATIVE,"The food is always very good. But today I didn’t have a good customer service experience. I called in my order at 12 and got there about 12:10. I waited till 12:20 to ask an ETA on my food and they said another 15 minutes. It would’ve been nice to know on the phone about the 35 minute wait, when my lunch break is only an hour. I saw 3 people who came in AFTER I had arrived and gotten their food before me. The food is great but it would’ve been nice to know there was a wait. They didn’t say anything about it on the phone."
+EXAMPLE,104,,,,,,,,,4,5,POSITIVE,Ordering ahead is a lot quicker than waiting in line. The staff was quick to respond to the doorbell. Good ice cream
+EXAMPLE,104,,,,,,,,,5,3,POSITIVE,"Ordered for pick up and was told that the food would be ready in 20 minutes, but ended up getting there around the time they said it would be ready only to wait an additional 45 minutes. When we asked the cashier why it might be taking so long,  he seemed irritated that we even asked and snapped ""it'll be ready in a minute"" at us. But otherwise, great food and fun vibe in the restaurant."
+TOPIC,32,1026,"order, wrong, messed, correct, right, called, online, got",322,31.4,704,68.6,211,390,,,,
+EXAMPLE,32,,,,,,,,,1,1,NEGATIVE,"Slow service, orders never right."
+EXAMPLE,32,,,,,,,,,2,1,NEGATIVE,Waited in line for 45 mins just to order another 30mins after ordering smh.
+EXAMPLE,32,,,,,,,,,3,5,POSITIVE,Always good. Never a long wait. I usually order online.
+EXAMPLE,32,,,,,,,,,4,5,POSITIVE,Order was correct and person at window was very pleasant
+EXAMPLE,32,,,,,,,,,5,3,NEGATIVE,Notorious for getting orders wrong.
+TOPIC,91,355,"yummm, yumm, yummmmm, mmm, mmmmmm, meh, yes, yuck",141,39.7,214,60.3,188,47,,,,
+EXAMPLE,91,,,,,,,,,1,2,NEGATIVE,Nope
+EXAMPLE,91,,,,,,,,,2,2,NEGATIVE,Yuck
+EXAMPLE,91,,,,,,,,,3,4,POSITIVE,He:)
+EXAMPLE,91,,,,,,,,,4,4,POSITIVE,Mmmm mmmmm good
+EXAMPLE,91,,,,,,,,,5,3,NEGATIVE,Ehh
+TOPIC,36,900,"open, hours, 24, close, says, google, website, sign",361,40.1,539,59.9,244,360,,,,
+EXAMPLE,36,,,,,,,,,1,1,NEGATIVE,"The website said that they close at 9pm, we got there at 5pm and they already locked up"
+EXAMPLE,36,,,,,,,,,2,1,NEGATIVE,Not quite open yet
+EXAMPLE,36,,,,,,,,,3,4,POSITIVE,"Always open, always good and always friendly! And they have a smoking section too!"
+EXAMPLE,36,,,,,,,,,4,5,POSITIVE,"great service, even better food and open 24 hours !!"
+EXAMPLE,36,,,,,,,,,5,3,NEGATIVE,It's closed.
+TOPIC,85,399,"drive, line, slow, lines, long, cars, fast, quick",173,43.4,226,56.6,105,62,,,,
+EXAMPLE,85,,,,,,,,,1,1,NEGATIVE,Terrible lines and drive-thru was a nightmare
+EXAMPLE,85,,,,,,,,,2,2,NEGATIVE,Drive through is way too slow
+EXAMPLE,85,,,,,,,,,3,5,POSITIVE,Speedy drive through!
+EXAMPLE,85,,,,,,,,,4,5,NEGATIVE,Shhhhh dont go here I dont like waiting in line
+EXAMPLE,85,,,,,,,,,5,3,POSITIVE,The drive thru is always full but they are pretty quick none the less
+TOPIC,83,405,"covid, mask, masks, wearing, wear, 19, pandemic, employees",191,47.2,214,52.8,127,132,,,,
+EXAMPLE,83,,,,,,,,,1,1,NEGATIVE,"Have been getting their food for years and the customer service tanked, nobody wears masks, and today when they mixed up my order they questioned me like it was my fault and then told ME to make sure that the girl has the right ticket next time. Never getting food here again"
+EXAMPLE,83,,,,,,,,,2,1,NEGATIVE,"DO NOT GO HERE. They discriminate against those who do not submit or cannot receive the experimental covid vaccine. The door is locked and upon proof of your Covid Vaccination, you are allowed in. This is the yellow star folks, just in different form. Don’t fold to this tyranny, Vaccinated or not. Action against businesses that choose to go this route will be out of business in no time, stand up for what’s right."
+EXAMPLE,83,,,,,,,,,3,5,NEGATIVE,finally a place that doesnt force the mask mandate down my throat
+EXAMPLE,83,,,,,,,,,4,4,POSITIVE,"Update: Dropping my rating to 4 stars because none of the staff is wearing a mask during this latest covid outbreak despite the request by state and city officials. You'd also get more than 15% tip from me on my to go order if you were a mask. Not sure what more incentive you need. (BTW, all customers picking up orders were wearing masks)
+
+Great food and excellent service. Ordered Togo. Food was ready in 10 minutes. We got burgers, the Reuben, a steak sandwich, and mozzarella sticks. Everything was great and hearty. They have a small deck which would be good for covid times.  A bit pricey but worth it for everything we ordered, but probably could have saved money if we didn't get the mozzarella sticks.. Worth it!"
+EXAMPLE,83,,,,,,,,,5,3,NEGATIVE,"ordering online is confusing. Didn't work for me.
+Also most customers were not wearing masks. The restaurant doesn't require mask wearing. the staff wore masks."
+TOPIC,47,765,"stars, star, reason, zero, giving, rating, gave, rate",390,51.0,375,49.0,236,182,,,,
+EXAMPLE,47,,,,,,,,,1,1,NEGATIVE,"Shouldnt even get a star.
+Didnt even put our name down
+Waited 20 mins
+Not even being acknowledged at all
+Watched everyone get seated before us
+Worst HOSSTESS ever.
+Called the so called manager
+And all that was said
+Oh sorry."
+EXAMPLE,47,,,,,,,,,2,1,POSITIVE,"If I could give 0 stars I would
+
+TERRIBLE Mexican food and even worse service. the workers/owners are incredibly rude and on one occasion I was refused service and straight up ignored.
+
+The cheesy garlic bread sticks (11/10 stars) are so good that I have to breakdown and order from them every few months even though I don't care for the service. Delivery is usually pretty quick however."
+EXAMPLE,47,,,,,,,,,3,5,POSITIVE,"Its 5 stars because the rooftop seating, fire, and good beer."
+EXAMPLE,47,,,,,,,,,4,5,POSITIVE,"5 stars for the food. Just fantastic, and worth the wait. Will definitely be back for the 420 chicken sandwich. Staff was a little cold though."
+EXAMPLE,47,,,,,,,,,5,3,NEGATIVE,"We had a decent experience tonight. The staff are always friendly! I put 3 stars because all of the TVs were out of service and they forgot 2 sweet potatoes. It took them 15 minutes to give them to us. They were apologetic, but didn't go beyond that to make up for the blunder."
+TOPIC,16,1709,"mcdonald, mcdonalds, mc, mcd, drive, typical, fast, order",910,53.2,799,46.8,461,267,,,,
+EXAMPLE,16,,,,,,,,,1,1,NEGATIVE,"Because this McDonalds is closest to where I live, I go there. However, not one time did this location ever got my order right. 2 Happy meal, one would either not have the chocolate milk or the fries inside. Something isalways missing. You order a happy meal chicken nugget, they would give youtthe meal nugget plus a 10 pc nugget that you get charge for but didn't order. You normally would not check the bag since there is a line in the drive-thru and you would feel guilty holding it up for those hungry people so you would just drive away praying that they get your order right only to discover your order wrong when you get home and feel dissappointed since you are sooo looking forward to eating what you thought you ordered.
+
+You are in customer service business. Please pay attention to what people order and what you put in the bags. People pay for the food they order and it is not right to get something they did not order but ended up paying for."
+EXAMPLE,16,,,,,,,,,2,1,NEGATIVE,"This is the absolute WORST McDonald's I have ever experienced.  I stopped through for breakfast, the upcharged for orange juice with a meal. When I asked about it they said meals only include coffee. So apparently children are unwelcome.  They upcharged to swap from bacon to sausage and then delivered a completely wrong sandwich. Instead of a sausage egg and cheese biscuit (that I paid extra for) they delivered a ham egg and cheese mcmuffin.  Because they are the only fast food place on the island, they get away with whatever they want and quality/service is completely disregarded."
+EXAMPLE,16,,,,,,,,,3,5,POSITIVE,"Most times I come here its a nice, fast visit and great food service!
+Sometimes the soda is gross, but other than that its a great McDonalds."
+EXAMPLE,16,,,,,,,,,4,5,POSITIVE,"Good McDonald's,  newly remodeled,  touch screens available,  nice people working, food is always good."
+EXAMPLE,16,,,,,,,,,5,3,NEGATIVE,One of the Dirtiest McDonald's I've ever been to. It was McDonald's. The nuggets were stuck together. Someone didn't shake them when they were cooking?

@@ -1,0 +1,170 @@
+type,topic,num_reviews,top_words,positive_count,positive_pct,negative_count,negative_pct,star_5,star_1,example_num,rating,sentiment,review_text
+TOPIC,0,10386,"pizza, crust, delivery, beer, toppings, pepperoni, order, cheese",8013,77.2,2373,22.8,6145,978,,,,
+EXAMPLE,0,,,,,,,,,1,1,NEGATIVE,I order pizza and it came dried and the crust taste burnt. Never again ordering
+EXAMPLE,0,,,,,,,,,2,2,NEGATIVE,"Pizza is always super good when we order. But delivery time is always SO SLOW. I’ve been waiting nearly 2 hours on my recent order and still nothing. I called after the first hour and they said the pizza was done but they were waiting on a driver. But 40 minutes later, still no pizza. It’s probably going to be cold by the time it gets here...
+Update: the pizza finally got to my house and the pizza was cold, just as I predicted."
+EXAMPLE,0,,,,,,,,,3,5,POSITIVE,The pizzas were FANTASTIC. Service awesome! Very friendly and helpful servers. Great experience
+EXAMPLE,0,,,,,,,,,4,5,POSITIVE,"I haven’t had pizza this good since I left the Bronx. Aside from the delicious pizza, the service was phenomenal. I WILL definitely return many times!"
+EXAMPLE,0,,,,,,,,,5,3,POSITIVE,make a good Pizza
+TOPIC,1,6716,"burger, hamburger, cheeseburger, cold, cheese, bacon, french, best",4939,73.5,1777,26.5,3460,615,,,,
+EXAMPLE,1,,,,,,,,,1,1,NEGATIVE,"So second time there and second time 100% disappointed.
+Ordered the #9, two cheeseburger combo asked them to supersize it.
+Got to the window and paid, thought the price sounded high, looked at the receipt and instead of the comb price and $1-2 supersize price increase.
+They charged me for a large, large fry and two individual cheeseburgers, obviously costing quite a bit more . Asked to speak to the manager, explained the issue to her. Her answer as a manager is, if you want large that's how it is. I again explained when you buy a combo you expect a combo price not a la carte pricing.  Got No Where with her, left upset and disappointed.
+Month goes buy, got a fixing for a Mc Dees Cheeseburger go in and order #9 again, dont bother to supersize it this time, knowing there is no way to get them to do what they should know how to do !!! Especialy a Manager.
+They hand me the food, I drive off, get on the Hwy, start to eat, and what do I get, a half full carton of fries. When you pay Alaska prices, you would expect them to at least fill the 30 cents worth of Fries you pay $3 dollars for !!!!!!! So tired of lack of customer service these days."
+EXAMPLE,1,,,,,,,,,2,1,NEGATIVE,"So expensive for each item, buy a hamburg, pay for each: mayo, ketchum, mustard, pickles etc."
+EXAMPLE,1,,,,,,,,,3,5,POSITIVE,"Great hamburger,  I was so full."
+EXAMPLE,1,,,,,,,,,4,4,POSITIVE,Great place for a good burger.
+EXAMPLE,1,,,,,,,,,5,3,NEGATIVE,"Fries were not so good, hot fudge ice cream was good"
+TOPIC,2,4425,"staff, friendly, food, nice, helpful, amazing, super, attentive",4143,93.6,282,6.4,3038,49,,,,
+EXAMPLE,2,,,,,,,,,1,2,NEGATIVE,"Nice staff so not an issue with them. Problem is the place needs some TLC and the kids play area really needs a clean. The equipment has that grease feel to it and the locked / gates surrounds have old food materials (boxes/straws etc.).
+Food was fine but you cant really enjoy it sitting in."
+EXAMPLE,2,,,,,,,,,2,1,POSITIVE,Sourdough is the best description of the staff!
+EXAMPLE,2,,,,,,,,,3,4,POSITIVE,"Large portions, delicious entrees, friendly staff and reasonable prices."
+EXAMPLE,2,,,,,,,,,4,5,POSITIVE,"Excellent food, drinks & service! Everyone on staff we interacted with was wonderful!!"
+EXAMPLE,2,,,,,,,,,5,3,NEGATIVE,The food is really good and the staff rocks. But the clientele are kinda rude
+TOPIC,3,3827,"place, kids, fun, games, play, tourist, family, love",3282,85.8,545,14.2,2438,197,,,,
+EXAMPLE,3,,,,,,,,,1,1,NEGATIVE,They have a long. There are better places.
+EXAMPLE,3,,,,,,,,,2,1,NEGATIVE,Got the runs not fun 4 holidays lol
+EXAMPLE,3,,,,,,,,,3,5,POSITIVE,"Most excellent,  if you can get there , Go!"
+EXAMPLE,3,,,,,,,,,4,5,POSITIVE,Local favorite
+EXAMPLE,3,,,,,,,,,5,3,POSITIVE,Good to visit occasionally if you can find one.
+TOPIC,4,2944,"beer, selection, tap, local, brewery, ipa, craft, atmosphere",2676,90.9,268,9.1,1861,38,,,,
+EXAMPLE,4,,,,,,,,,1,2,NEGATIVE,Extremely poor quality of food comparing to prices. Cold beer was the best product I had in this place. Service though was much better than food.
+EXAMPLE,4,,,,,,,,,2,2,NEGATIVE,Service is very slow every time I come here. Also the beer seems a bit more expensive than bars in the area.
+EXAMPLE,4,,,,,,,,,3,4,POSITIVE,"Just went for a beer and the place was crazy busy. Beer was good, but it would have been nice to sit down and enjoy it!"
+EXAMPLE,4,,,,,,,,,4,5,POSITIVE,"The absolute best place to enjoy a tasty beer, eat a mouthwatering burger, and watch a game!  All served up by the friendliest staff around.  We have chosen the ER Ale house as the venue for our company Christmas party for the last 5 years, and I've enjoyed their entertainment options from small bands to Paint Nite.  You will love this place!"
+EXAMPLE,4,,,,,,,,,5,3,NEGATIVE,OK food but the service was slow and inattentive .  Nice view and beer selection.
+TOPIC,5,2104,"sushi, roll, sashimi, miso, tempura, fresh, rice, town",1783,84.7,321,15.3,1426,108,,,,
+EXAMPLE,5,,,,,,,,,1,2,NEGATIVE,"I had high hopes for this place because of how good the prior restaurant at the location was, but it became one of the worst meals we've had. It merits two stars rather than one only because the decor (apart from the beam not fully attached to the ceiling) was tasteful and the dishware was nice. The food itself was terrible. They brought my husband the wrong order (he hated it), and it turned out to have been a baked version of what he usually orders at other sushi restaurants. When they corrected the order, it was just as unpleasant. The bulgogi I ordered was the worst cut of meat possible. I took it home to clean the grissel out of it, and lost about half of the meal. Most weird, at the end of the meal, both of our hands were inexplicably sticky."
+EXAMPLE,5,,,,,,,,,2,2,NEGATIVE,Sushi was super old and not good at all. Other dishes weren't fresh nether. Taste is average.
+EXAMPLE,5,,,,,,,,,3,5,POSITIVE,"The atmosphere is excellent and the service is attentive. The food is delicious. I recommend trying the chicken fried rice and the green beef! My date ordered a couple of sushi rolls, which I didn't try because I don't like sushi, but there was plenty more on the menu. He was also very happy with the quality of the food!"
+EXAMPLE,5,,,,,,,,,4,5,POSITIVE,"Um. So, delicious sushi and then we get free fried Oreos. Ah-mazing."
+EXAMPLE,5,,,,,,,,,5,3,POSITIVE,It's not exceptional but it's not bad. They have a great mix of sushi and Chinese food. I like their super ninja roll and their Mongolian beef.
+TOPIC,6,2010,"said, minutes, waitress, told, table, came, manager, didn",176,8.8,1834,91.2,76,1357,,,,
+EXAMPLE,6,,,,,,,,,1,1,NEGATIVE,Walk in when its completely empty and asked if they're open and was told to sit anywhere.. Sat down and nobody came for 20 min. We decided to leave and on the way out the waitress had the nerve to say 'Thank you.  Food might be great but the staff sure didn't let us experience it
+EXAMPLE,6,,,,,,,,,2,1,NEGATIVE,Eleven of us had 7 pm reservations tonight.  It took  over 1 1/2 hours to get our food.  The server said 1 hour 10 minutes but swear it was longer. Excuse was they had a banquet.  That's not an excuse.  To comensate the manager offered the 11 of us 3 free desserts to share.  What an insult.  Finally talked them up to 5 so couples could share.  The king salmon I ordered was bland.  Three ordered the halibut and said it was tasteless.  I will never eat there again. Had to go out and pay for an extra 2 hours on the parking meter too. They added 18% gratuity.  Didn't get out of there till 10 pm.
+EXAMPLE,6,,,,,,,,,3,5,NEGATIVE,"Good food. Waiter should have wrote thing down, he got 1 of the three dinners wrong. Manager took care of us though even after telling her is wasn't necessary. Been there a few times before and haven't had this problem but also haven't had this particular waiter before either."
+EXAMPLE,6,,,,,,,,,4,4,NEGATIVE,Waiters sort of forgot we were there for 20 mins
+EXAMPLE,6,,,,,,,,,5,3,POSITIVE,"First and foremost, I was a little surprised that my server... at a Cajun/creole restaurant... didn’t know what Absinthe was... especially considering it is in fact an ingredient in one of their drinks.
+
+I agree with some of the other reviews in that my server seemed stressed... perhaps due to covid... but I also felt she was maybe a little annoyed or disinterested in providing better service to my partner and I as we only ordered drinks and appetizers.
+
+But the real annoyance came after the second and third times someone tried to take our plates before we were finished eating. Like literally mid bite, THREE TIMES, someone tried to take our plates away. Sort of felt like they were trying to rush us out of there.
+
+The ambiance of the place is eclectic and fun, and food was pretty good, and I will likely go back... but I think the staff needs a little tune up. But then again, I know it’s weird times so I’m willing to grant a bit of grace."
+TOPIC,7,1987,"fairbanks, best, restaurant, favorite, place, visiting, places, eat",1771,89.1,216,10.9,1429,77,,,,
+EXAMPLE,7,,,,,,,,,1,1,NEGATIVE,Don’t waste your time ordering from this place. They have not one but two delivery drivers that can’t find Pike’s Waterfront Lodge in Fairbanks.  90 minutes later they have cancelled my order with no notification.  Will not make this mistake again.
+EXAMPLE,7,,,,,,,,,2,2,POSITIVE,"I started to like this place at first but it didn’t take long for the lack of customer service to shine through. This place doesn’t appreciate the regular/local customer. Their target customers are tourists. The one time customer who spends $100 a night or the tourist groups that spend a few hundred a night... not the local who spends $20 a night for months on end...
+
+Cater only to the tourism market and get one time business or take care of the locals and keep repeat customers coming back? Somehow they can’t do both.
+
+This place is good for a one time experience if you catch the staff on a good night and have never been there before.
+
+If you go back multiple times they get comfortable and start treating you like dirt.
+
+This isn’t that lil hole in the wall that locals find and gravitate towards, fact is; Rico kinda just came out of nowhere in Fairbanks and doesn’t seem to respect the local culture. Rico is better than his surroundings and he’s not afraid to let you know. Rico is better than most people and he’s not afraid to tell you.
+
+The music is okay, if you listen to it once. They play the exact same sets every night with little to no variation at all. I think the last straw for me and this place was Rico’s narcissistic attitude towards the local scene and how he is so much better than everyone else with “his” music.
+
+It’s all smoke and mirrors. Don’t look behind the curtain because apparently keeping a clean kitchen is one of the last things Rico likes to do.
+
+It’s been kind of funny watching Rico run around like a “boss” but when the 6 tables he has fills up and people are actually ordering food, he can’t handle the rush!
+
+Rico, stop trying to poach cooks from your competitors!
+
+If you’re looking for a Latin Jazz Bistro this place will try its best to play other people’s songs and accept your tip money for it... if you’re looking for a Jazz Bistro this place will disappoint you.
+
+If you like supporting companies who use musicians and other artists works as their cover songs and aren’t fully registered and licensed this is the place to be!
+
+Playing unlicensed cover songs is stealing from the original artist, so every night when you play Carlos Santana’s music you are stealing from him!!
+
+Register your venue and pay your license fees!
+
+Treating locals like dirt is a sure fire way to slowly kill your business and reputation.
+
+Any food business that uses %50 of their floor space for the owners to sing and dance while people are trying to order food and drinks has their priorities in the blender."
+EXAMPLE,7,,,,,,,,,3,5,POSITIVE,Hidden gem in Fairbanks!
+EXAMPLE,7,,,,,,,,,4,5,NEGATIVE,"My favorite restaurant in Fairbanks, but I am not going to write anything."
+EXAMPLE,7,,,,,,,,,5,3,NEGATIVE,One of the better restaurants in Fairbanks. Fair prices quick service. Only 3 stars for menu selection and it does not taste as good as Mexican restaurant in the lower 48.
+TOPIC,8,1882,"thai, pad, curry, tea, noodles, authentic, spicy, best",1693,90.0,189,10.0,1408,74,,,,
+EXAMPLE,8,,,,,,,,,1,1,NEGATIVE,"There's a reason they named their place Alaska Taste of Thai. Portions are really small for the price. Ordered yellow curry and added chicken for $2.00 for a total of $15. Received half a cup of rice, three bite size pieces of chicken, and half of a small potato that was cut in half. Picture shows what was left after having a couple of bites in a standard to-go container. If you want more than a snack for 15 dollars, go somewhere else."
+EXAMPLE,8,,,,,,,,,2,1,NEGATIVE,"I Tried this place 3 different times about a year ago! Never went back there since. Water down stir fry, the spicy fried chicken is mostly batter barely any chicken and after three bites of pad Thai I threw it away!"
+EXAMPLE,8,,,,,,,,,3,5,NEGATIVE,Great yellow and green curry. Fried spring rolls are a bonus. I go elsewhere for things like pad thai
+EXAMPLE,8,,,,,,,,,4,5,POSITIVE,I've been eating at Thai Village since 1998. It's one of my all time favorites!
+EXAMPLE,8,,,,,,,,,5,3,POSITIVE,"Good food, I had the pad Thai and that was really good.  Only downside is it took a while for the waitress to get to us and get our food."
+TOPIC,9,1878,"fresh, fast, delicious, food, variety, tasty, hot, foods",1801,95.9,77,4.1,1251,13,,,,
+EXAMPLE,9,,,,,,,,,1,1,NEGATIVE,I don't dig on fast food that much.
+EXAMPLE,9,,,,,,,,,2,2,POSITIVE,"All you can eat, lots of food. American style, over the top."
+EXAMPLE,9,,,,,,,,,3,4,POSITIVE,The food is always good.
+EXAMPLE,9,,,,,,,,,4,4,POSITIVE,The food is delicious!
+EXAMPLE,9,,,,,,,,,5,3,POSITIVE,Good quick food
+TOPIC,10,1868,"service, fast, slow, clean, friendly, customer, quick, poor",1450,77.6,418,22.4,972,157,,,,
+EXAMPLE,10,,,,,,,,,1,1,NEGATIVE,Service was so bad and bad is not even the word
+EXAMPLE,10,,,,,,,,,2,1,NEGATIVE,Slow service.
+EXAMPLE,10,,,,,,,,,3,4,POSITIVE,Usually good service
+EXAMPLE,10,,,,,,,,,4,5,POSITIVE,Great fast service. Loved it!
+EXAMPLE,10,,,,,,,,,5,3,POSITIVE,Okay not bad at all grat services
+TOPIC,11,1868,"steak, rare, pork, medium, cooked, ribeye, pulled, fried",1408,75.4,460,24.6,1027,146,,,,
+EXAMPLE,11,,,,,,,,,1,2,NEGATIVE,"Service was great. Steak was tough, onion rings overcooked."
+EXAMPLE,11,,,,,,,,,2,2,POSITIVE,"I won't go back. It was a nice looking place, both exterior and interior, but the food was way overpriced and not cooked to order.  I ordered steak and eggs - which is a pretty easy order - for $18. My 6 ounce steak was ordered medium rare and came out beyond well done. - not even a hint of pink, let alone red.  My eggs were ordered over easy, but when the food came out, the yokes were solid, like hard boiled eggs.
+
+The waitress was cool and nice, but that doesn't make up for the lousy food.  At the prices listed, the food should have tasted amazing and cooked perfectly."
+EXAMPLE,11,,,,,,,,,3,4,POSITIVE,"I ordered a Philly and the meat was clearly no good, and the staff were more than understanding and immediately took action. They were replaced it with the quickness with a patty melt. Overall, great restaurant."
+EXAMPLE,11,,,,,,,,,4,5,POSITIVE,"Food was super delicious!!  This is my favorite restaurant for steaks.  Only downside was 30-35 minute wait to sit down, but our server more than made up for that with his amazing service!!"
+EXAMPLE,11,,,,,,,,,5,3,POSITIVE,"Unfortunately food was not cooked timely. My husband got his first. I ordered a country fried stake and the batter was too salty. Ordered then a regular steak medium rare and again it took a while and it was all done. Server and manager were very nice about it and took good care as much as they could. Unfortunately at this time I can not rate more stars because of my last visit but all other times have been very good. By the way, I love their fresh bread and chilli."
+TOPIC,12,1854,"hotel, room, rooms, stay, bed, desk, comfortable, clean",1266,68.3,588,31.7,759,223,,,,
+EXAMPLE,12,,,,,,,,,1,2,NEGATIVE,Friendly staff but for about $160 a night I got a blood stained comforter with holes in it. Phone didn't work in room. Very slow wifi. Other than that the room was cozy and quiet.
+EXAMPLE,12,,,,,,,,,2,1,NEGATIVE,They do not serve visitors well.  They do not clean the rooms or change the bedding.  They do not have clean towels or toilet paper if you ask for it.
+EXAMPLE,12,,,,,,,,,3,5,POSITIVE,Great views and the hotel staff are the best
+EXAMPLE,12,,,,,,,,,4,5,POSITIVE,Lovely hotel. There is Adam at the reception..... he is an amazing guy who goes out of his way to take care of every little thing you need. He is highly customer centric and I would highly recommend this hotel. One additional pointer .... this hotel has a lot of history and it carries you back into time. Go stay.
+EXAMPLE,12,,,,,,,,,5,3,POSITIVE,Older hotel...beds need to be updated. Decent views of harbor. Staff friendly
+TOPIC,13,1827,"anchorage, restaurants, favorite, restaurant, downtown, best, places, place",1664,91.1,163,8.9,1432,46,,,,
+EXAMPLE,13,,,,,,,,,1,1,NEGATIVE,"Used to be my favorite restuarant in anchorage, went back yesterday after a few months and they were still as pricey as ever but their portions were cut by AT LEAST 50%, I was so disappointed. I never minded their high prices due to large portions, but now it is just overpriced and the chicken fried rice I got tasted awful (which was also unusual). We also felt hustled by the waitress and they weren't even busy, I will not be returning to say the least."
+EXAMPLE,13,,,,,,,,,2,1,POSITIVE,Today we stopped into SimEon and Seaforts   for a glass of wine and an appetizer... our server was great and wine was excellent....But when did they let pit bull dogs or any dog for that matter come in...  As long as the sit under the table it’s ok!  ! Was at one time the classiest place in Anchorage... now  I don't know just really disappointed in the atmosphere... I LOVE dogs but not the place for them!
+EXAMPLE,13,,,,,,,,,3,4,POSITIVE,"The best value in Anchorage, good solid food and outstanding service!!!"
+EXAMPLE,13,,,,,,,,,4,5,POSITIVE,"Lovely experience! Food was bomb and service excellent.  We enjoyed the sticky buns, deadliest Cath and Vegas baby omelette. I highly recommend the raspberry butter too. A must for any Anchorage tourists!"
+EXAMPLE,13,,,,,,,,,5,3,NEGATIVE,The Waiters take a long time to recognize your there. ( seat yourself) the location is quite run down and in a bad part of anchorage. Its also part of another restaurant so the bar keep is also the waiter for both sides. The food is in small portions and they seemed very suprrized that we were even there. They also gave us the menu for the other restaurant. ( there connected) the food was good but staked on a small plate so messy kids might be eating off the table (ground) due to small room to eat. Over all a place i would not eat again try naruto its good food.
+TOPIC,14,1781,"coffee, starbucks, cafe, cup, shop, latte, espresso, breakfast",1467,82.4,314,17.6,1113,100,,,,
+EXAMPLE,14,,,,,,,,,1,2,NEGATIVE,I had an iced coffee and I have had stomach issues for the last two days....
+EXAMPLE,14,,,,,,,,,2,1,NEGATIVE,Never been here before and asked the cashier how much people usually pay for a full cup and she completely misrepresented the actual price per ounce. Set rates would be appreciated as well as smaller cup sizes.
+EXAMPLE,14,,,,,,,,,3,4,NEGATIVE,"Amazing, warm community vibes especially in the winter. Good food and good drinks.
+
+Whoever designed their sticker advertisement for the ADN should be let go. The business name is barely visible and there's no other information about who they are except if you by chance recognize their coffee truck. I feel bad for how much they must have spent on that."
+EXAMPLE,14,,,,,,,,,4,5,POSITIVE,"Starbucks, the usual fare"
+EXAMPLE,14,,,,,,,,,5,3,NEGATIVE,Overpriced coffee
+TOPIC,15,1711,"alaska, alaskan, best, restaurant, trip, prices, place, food",1562,91.3,149,8.7,1241,44,,,,
+EXAMPLE,15,,,,,,,,,1,1,POSITIVE,"Great Alaskan Restaurant and very, good food, Friendly 😊🇺🇸🇺🇸🇺🇸🇺🇸"
+EXAMPLE,15,,,,,,,,,2,2,NEGATIVE,"Meh... overrated but I guess it's decent for such a remote place in AK. Food was totally a let down. Tried to like the burrito but it was pretty plain. I suppose tho that when ur in a landlocked fishing community, you shouldn't expect miracle mex."
+EXAMPLE,15,,,,,,,,,3,5,POSITIVE,"Interesting decor, there is just about every kind of pelt of every animal in the Alaska wild: wolf, bear, wolverine etc... The service was fast and pleasant. There are crayons and high chairs for kiddos. The pizza was delish. Dessert was awesome."
+EXAMPLE,15,,,,,,,,,4,5,POSITIVE,Since I lived in Alaska in 2004 and 2005 this is the one place I have to visit on every trip. The food never disappoints.
+EXAMPLE,15,,,,,,,,,5,3,NEGATIVE,Our most expensive meal in Alaska but our least favorite.
+TOPIC,16,1709,"mcdonald, mcdonalds, mc, mcd, drive, typical, fast, order",910,53.2,799,46.8,461,267,,,,
+EXAMPLE,16,,,,,,,,,1,1,NEGATIVE,"Because this McDonalds is closest to where I live, I go there. However, not one time did this location ever got my order right. 2 Happy meal, one would either not have the chocolate milk or the fries inside. Something isalways missing. You order a happy meal chicken nugget, they would give youtthe meal nugget plus a 10 pc nugget that you get charge for but didn't order. You normally would not check the bag since there is a line in the drive-thru and you would feel guilty holding it up for those hungry people so you would just drive away praying that they get your order right only to discover your order wrong when you get home and feel dissappointed since you are sooo looking forward to eating what you thought you ordered.
+
+You are in customer service business. Please pay attention to what people order and what you put in the bags. People pay for the food they order and it is not right to get something they did not order but ended up paying for."
+EXAMPLE,16,,,,,,,,,2,1,NEGATIVE,"This is the absolute WORST McDonald's I have ever experienced.  I stopped through for breakfast, the upcharged for orange juice with a meal. When I asked about it they said meals only include coffee. So apparently children are unwelcome.  They upcharged to swap from bacon to sausage and then delivered a completely wrong sandwich. Instead of a sausage egg and cheese biscuit (that I paid extra for) they delivered a ham egg and cheese mcmuffin.  Because they are the only fast food place on the island, they get away with whatever they want and quality/service is completely disregarded."
+EXAMPLE,16,,,,,,,,,3,5,POSITIVE,"Most times I come here its a nice, fast visit and great food service!
+Sometimes the soda is gross, but other than that its a great McDonalds."
+EXAMPLE,16,,,,,,,,,4,5,POSITIVE,"Good McDonald's,  newly remodeled,  touch screens available,  nice people working, food is always good."
+EXAMPLE,16,,,,,,,,,5,3,NEGATIVE,One of the Dirtiest McDonald's I've ever been to. It was McDonald's. The nuggets were stuck together. Someone didn't shake them when they were cooking?
+TOPIC,17,1654,"breakfast, breakfasts, lunch, place, morning, spot, day, dinner",1532,92.6,122,7.4,1088,26,,,,
+EXAMPLE,17,,,,,,,,,1,2,POSITIVE,"Not very crowded @ 8am...simple breakfast, but eggs were cold (looked like only one egg instead of two ordered) toast served with no butter. It seems like it's hot or cold when I visit this paticular ihop...otherwise staff was very pleasant and friendly"
+EXAMPLE,17,,,,,,,,,2,2,NEGATIVE,Only good for breakfast food I suppose.....
+EXAMPLE,17,,,,,,,,,3,4,POSITIVE,Good breakfast at a reasonable price. Had a homemade scone that was amazing! The breakfast skillet actually made 2 meals for me.
+EXAMPLE,17,,,,,,,,,4,5,POSITIVE,"Great food, great service.  The Firefighters Breakfast was amazing! No wait on a Sunday morning."
+EXAMPLE,17,,,,,,,,,5,3,POSITIVE,Fast breakfast - hot food
+TOPIC,18,1599,"sandwich, bread, turkey, breads, fresh, love, grilled, blt",1338,83.7,261,16.3,984,51,,,,
+EXAMPLE,18,,,,,,,,,1,2,NEGATIVE,"Limited to sourdough bread. VERY busy and VERY slow service even for take out sandwiches. Other options in Gridwood looked much better to me, for example Jack Sprat and Spoonline."
+EXAMPLE,18,,,,,,,,,2,2,NEGATIVE,"I love Charley’s sandwiches and I’ve been at 9 different posts so far. The one here though needs better customer interaction. They completely made the wrong sandwich for my wife, and the lady at the register was not personable at all! Very apathetic and not genuine.
+26 March, 2019 @ 1330"
+EXAMPLE,18,,,,,,,,,3,4,NEGATIVE,There's Goooooooold in them there sandwiches!!!!
+EXAMPLE,18,,,,,,,,,4,5,POSITIVE,Like the sandwiches
+EXAMPLE,18,,,,,,,,,5,3,POSITIVE,Good sandwich but expensive
+TOPIC,19,1585,"service, food, slow, ok, excellent, okay, awesome, amazing",1274,80.4,311,19.6,761,61,,,,
+EXAMPLE,19,,,,,,,,,1,2,NEGATIVE,Food did not taste very good. Friendly service though.
+EXAMPLE,19,,,,,,,,,2,2,NEGATIVE,"The food was mediocre for Juneau. The service was also very slow, and food didn't come out together but rather staggered and by quiet some time, it took us far too long to get our check so we could leave."
+EXAMPLE,19,,,,,,,,,3,4,POSITIVE,"Chicken and vegetables was good, enough for us to share.  Service was good."
+EXAMPLE,19,,,,,,,,,4,5,POSITIVE,Fantastic service!  Very friendly and attentive.   And the food was tremendous.
+EXAMPLE,19,,,,,,,,,5,3,POSITIVE,Service wasn't the best and the food was ok.

@@ -1,0 +1,44 @@
+type,topic,num_reviews,top_words,positive_count,positive_pct,negative_count,negative_pct,star_5,star_1,example_num,rating,sentiment,review_text
+TOPIC,30,1113,"food, awesome, usual, cool, report, animal, deliciousness, ppl",1113,100.0,0,0.0,879,3,,,,
+EXAMPLE,30,,,,,,,,,1,2,POSITIVE,"As usual, great food."
+EXAMPLE,30,,,,,,,,,2,1,POSITIVE,awesome food
+EXAMPLE,30,,,,,,,,,3,5,POSITIVE,Great food
+EXAMPLE,30,,,,,,,,,4,5,POSITIVE,Awesome food
+EXAMPLE,30,,,,,,,,,5,3,POSITIVE,Great food
+TOPIC,80,430,"yummy, delicious, juicy, win, bonus, chance, hmmm, deliciously",430,100.0,0,0.0,340,0,,,,
+EXAMPLE,80,,,,,,,,,1,5,POSITIVE,Yummy
+EXAMPLE,80,,,,,,,,,2,3,POSITIVE,Delicious
+TOPIC,99,316,"loved, food, mole, omg, usual, nice, better, ",316,100.0,0,0.0,266,1,,,,
+EXAMPLE,99,,,,,,,,,1,1,POSITIVE,Great food!
+EXAMPLE,99,,,,,,,,,2,4,POSITIVE,Great food!
+EXAMPLE,99,,,,,,,,,3,5,POSITIVE,Great food!
+EXAMPLE,99,,,,,,,,,4,3,POSITIVE,Great Food!
+TOPIC,112,271,"service, food, professional, , , , , ",271,100.0,0,0.0,231,0,,,,
+EXAMPLE,112,,,,,,,,,1,5,POSITIVE,Great food and service
+EXAMPLE,112,,,,,,,,,2,3,POSITIVE,Great food and service
+TOPIC,118,260,"awesome, bro, freaking, case, 24, says, list, stuffed",260,100.0,0,0.0,237,1,,,,
+EXAMPLE,118,,,,,,,,,1,1,POSITIVE,Awesome
+EXAMPLE,118,,,,,,,,,2,5,POSITIVE,Awesome
+EXAMPLE,118,,,,,,,,,3,3,POSITIVE,Awesome
+TOPIC,128,234,"place, awesome, vote, shirts, girlfriend, eats, white, people",234,100.0,0,0.0,187,0,,,,
+EXAMPLE,128,,,,,,,,,1,5,POSITIVE,Great place
+EXAMPLE,128,,,,,,,,,2,3,POSITIVE,Great place
+TOPIC,137,206,"service, excellent, food, meh, average, , , ",206,100.0,0,0.0,137,0,,,,
+EXAMPLE,137,,,,,,,,,1,4,POSITIVE,Good food and service
+EXAMPLE,137,,,,,,,,,2,5,POSITIVE,Good food and service
+EXAMPLE,137,,,,,,,,,3,3,POSITIVE,Good food and service
+TOPIC,31,1102,"food, pizza, dam, peeps, hella, ha, dope, cx",1100,99.8,2,0.2,581,0,,,,
+EXAMPLE,31,,,,,,,,,1,2,NEGATIVE,Not good pizza
+EXAMPLE,31,,,,,,,,,2,2,POSITIVE,Good food
+EXAMPLE,31,,,,,,,,,3,5,POSITIVE,Good food
+EXAMPLE,31,,,,,,,,,4,4,POSITIVE,Good food
+EXAMPLE,31,,,,,,,,,5,3,POSITIVE,Good food
+TOPIC,81,421,"love, place, service, amazing, eat, awesome, food, delicious",420,99.8,1,0.2,397,0,,,,
+EXAMPLE,81,,,,,,,,,1,5,POSITIVE,"This place is great. Great food, great people and great prices."
+EXAMPLE,81,,,,,,,,,2,5,POSITIVE,"Lots of delicious food, acceptable price range, and nice service. I defenetly will recomend to visit this place :3"
+TOPIC,20,1565,"service, excellent, awesome, food, friendly, delicious, amazing, fantastic",1561,99.7,4,0.3,1337,6,,,,
+EXAMPLE,20,,,,,,,,,1,1,POSITIVE,Excellent food. Rude service.
+EXAMPLE,20,,,,,,,,,2,1,POSITIVE,amazing service testy food
+EXAMPLE,20,,,,,,,,,3,5,POSITIVE,Friendly service and good food.
+EXAMPLE,20,,,,,,,,,4,4,POSITIVE,"Outstanding.  Good, fresh food.  Good service!"
+EXAMPLE,20,,,,,,,,,5,3,POSITIVE,Straightforward good meals. Pleasant atmosphere and friendly service.
