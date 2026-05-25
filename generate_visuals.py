@@ -9,7 +9,6 @@ Output:
     visuals/negative_topics.png
     visuals/positive_topics.png
     visuals/sentiment_rating_alignment.png
-    visuals/topic_distribution.png
 """
 
 import os
@@ -182,7 +181,8 @@ def plot_sentiment_alignment(csv_path: str):
     ax.set_xlim(0, 100)
     ax.set_xlabel("Sentiment distribution (%)", fontsize=11, labelpad=10)
     ax.xaxis.set_major_formatter(mticker.PercentFormatter())
-    ax.legend(loc="lower right", framealpha=0.3, edgecolor="none", fontsize=10)
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.12),
+              ncol=2, framealpha=0, edgecolor="none", fontsize=10)
     ax.tick_params(axis="y", length=0)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
@@ -196,46 +196,6 @@ def plot_sentiment_alignment(csv_path: str):
 
 
 # ===================================================================
-# Chart 4: Topic size distribution (top 20 + long tail)
-# ===================================================================
-def plot_topic_distribution(csv_path: str):
-    df = pd.read_csv(csv_path)
-    df = df.sort_values("num_reviews", ascending=False).head(20)
-
-    fig, ax = plt.subplots(figsize=(12, 5.5))
-
-    colors = [PURPLE if i < 5 else "#484f58" for i in range(len(df))]
-    bars = ax.bar(range(len(df)), df["num_reviews"], color=colors,
-                  width=0.7, edgecolor="none", zorder=3)
-
-    # Labels on top of bars (only top 5)
-    for i, (bar, row) in enumerate(zip(bars, df.itertuples())):
-        if i < 5:
-            keywords = row.top_words.split(", ")[:3]
-            ax.text(bar.get_x() + bar.get_width() / 2,
-                    bar.get_height() + 120,
-                    ", ".join(keywords),
-                    ha="center", va="bottom", fontsize=8.5,
-                    color="#8b949e", style="italic")
-
-    ax.set_xticks(range(len(df)))
-    ax.set_xticklabels([f"T{t}" for t in df["topic"]], fontsize=9,
-                       rotation=45, ha="right")
-    ax.set_ylabel("Number of reviews", fontsize=11, labelpad=10)
-    ax.set_xlabel("Topic ID", fontsize=11, labelpad=10)
-    ax.grid(axis="y", alpha=0.15, linewidth=0.5)
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-    ax.tick_params(axis="x", length=0)
-
-    plt.tight_layout()
-    fig.savefig(f"{OUTPUT_DIR}/topic_distribution.png", dpi=200,
-                bbox_inches="tight")
-    plt.close()
-    print("  ✓ topic_distribution.png")
-
-
-# ===================================================================
 # Main
 # ===================================================================
 if __name__ == "__main__":
@@ -243,5 +203,4 @@ if __name__ == "__main__":
     plot_negative_topics("top_10_negative_topics.csv")
     plot_positive_topics("top_10_positive_topics.csv")
     plot_sentiment_alignment("sentiment_rating_correlation.csv")
-    plot_topic_distribution("all_topics_new.csv")
     print(f"\nDone — all charts saved to {OUTPUT_DIR}/")
