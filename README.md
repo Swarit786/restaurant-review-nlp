@@ -2,8 +2,7 @@
 
 ### Sentiment Analysis & Topic Modelling of 212,000+ Restaurant Reviews
 
-**Master's Thesis** · Hamburg University of Technology (TUHH) · February 2026
-**Grade:** 2.3 · Study Programme: Mechanical Engineering and Management
+**Master's Thesis** · Hamburg University of Technology (TUHH) · February 2026 · Study Programme: Mechanical Engineering and Management
 **Supervisors:** Prof. Dr. Timo Heinrich · Prof. Dr. Christian Lüthje · Martin Sterner
 
 ---
