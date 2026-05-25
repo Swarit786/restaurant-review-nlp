@@ -51,7 +51,7 @@ Seven of the top ten positive topics hit 100% positive sentiment — but unlike 
 ### Do star ratings and text sentiment agree?
 
 <p align="center">
-  <img src="visuals/sentiment_rating_alignment.png" alt="Sentiment vs star rating alignment" width="700"/>
+  <img src="visuals/sentiment_rating.png" alt="Sentiment vs star rating alignment" width="700"/>
 </p>
 
 Broadly yes, but not perfectly. The most striking divergence is at **3 stars**, which splits nearly 50/50 between positive and negative text. Star ratings and textual sentiment are related but not interchangeable — text adds interpretive depth that numbers alone cannot capture.
