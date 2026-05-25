@@ -8,7 +8,7 @@ Usage:
 Output:
     visuals/negative_topics.png
     visuals/positive_topics.png
-    visuals/sentiment_rating_alignment.png
+    visuals/sentiment_rating.png
 """
 
 import os
@@ -189,10 +189,10 @@ def plot_sentiment_alignment(csv_path: str):
     ax.spines["left"].set_visible(False)
 
     plt.tight_layout()
-    fig.savefig(f"{OUTPUT_DIR}/sentiment_rating_alignment.png", dpi=200,
+    fig.savefig(f"{OUTPUT_DIR}/sentiment_rating.png", dpi=200,
                 bbox_inches="tight")
     plt.close()
-    print("  ✓ sentiment_rating_alignment.png")
+    print("  ✓ sentiment_rating.png")
 
 
 # ===================================================================
