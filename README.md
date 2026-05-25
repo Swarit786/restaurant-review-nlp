@@ -121,8 +121,8 @@ Broadly yes, but not perfectly. The most striking divergence is at **3 stars**, 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Swarit786/restaurant-review-nlp.git
+cd restaurant-review-nlp
 ```
 
 ### 2. Install dependencies
