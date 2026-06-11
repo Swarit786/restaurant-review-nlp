@@ -20,7 +20,7 @@ Using **212,119 Google Maps restaurant reviews** from Alaska, this project build
 ## Pipeline
 
 <p align="center">
-  <img src="visuals/pipeline.svg" alt="Pipeline architecture" width="600"/>
+  <img src="visuals/pipeline-flowchart.svg" alt="Pipeline architecture" width="600"/>
 </p>
 
 Sentiment analysis runs first — before topic modelling — so polarity labels are never influenced by topic-specific vocabulary. Topic modelling then groups reviews by semantic similarity using dense vector embeddings (not word counts), making it robust to short, informal review language.
